@@ -2,10 +2,10 @@
 project_type = :stand_alone
 
 # Publishing paths
-http_path = "/fedora4lib/"
-http_images_path = "/fedora4lib/images"
-http_fonts_path = "/fedora4lib/fonts"
-css_dir = "public/fedora4lib/stylesheets"
+http_path = "/"
+http_images_path = "/images"
+http_fonts_path = "/fonts"
+css_dir = "public/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
