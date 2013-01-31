@@ -18,11 +18,14 @@
       display:block;
     }
     input {
-      display: block;
+      //display: block;
       padding: 5px;
-      width: 250px;
+      //width: 250px;
       font: inherit;
     }
+	li {
+	  list-style-type: none;
+	}
     textarea {
       width: 450px;
       padding: 5px;
