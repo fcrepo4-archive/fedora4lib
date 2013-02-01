@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: 
+Disallow: /venue/
+Disallow: /programme/
 
 Sitemap: http://futures.github.com/fedora4lib/sitemap.xml 
