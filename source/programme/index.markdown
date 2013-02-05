@@ -18,6 +18,8 @@ Monday, 11 February
 From 7pm til late
 Door prizes: a few special bottles for a few lucky people
 
+*At present, Monday evening registrations are waitlist-only*. You can still register, and we'll let you know via email if there are any cancellations.
+
 Tuesday, 12 February
 ------------------
 From 7pm til late
