@@ -9,7 +9,7 @@ footer: true
 
 We're hosting fedora4lib in a 5-bedroom duplex in Chicago's Lincoln Park, aka the Fedora House.
 
-The address is 2628 N Burling St, a straight shot north on the #8 bus to the Halsted & Wrightwood stop from either the UIC Forum or the Crowne Plaza hotel.
+The address is 2628 N Burling St. #2, a straight shot north on the #8 bus to the Halsted & Wrightwood stop from either the UIC Forum or the Crowne Plaza hotel.
 
 The house is equipped with a jacuzzi, deck, and wifi. We'll have some great beer to share, and we hope you'll bring some to share as well!
 

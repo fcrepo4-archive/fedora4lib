@@ -13,6 +13,8 @@ We'll have Chicago deep-dish pizza and a selection of local and not-so-local cra
 
 Bring your laptop, questions, and projects. Pull requests welcome.
 
+During the week of code4lib, we're holding a [Developer Challenge]({{ root_url }}/hack) to get folks hacking on and around Fedora 4. Cash prizes of $500 and $250 will be awarded and the top three entries will also receive a special bottle from our [holdings]({{root_url}}/brews).
+
 Monday, 11 February
 ------------------
 From 7pm til late
@@ -27,6 +29,5 @@ Door prizes: a few special bottles for a few lucky people
 
 Register
 ------------------
-With a little bit of luck, we'll also be able to offer registered attendees $100 of free AWS credit from the nice folks at Amazon (no promises yet!). We'll update this page when we know for sure. So register below!
 
 {% google_form dHVuQTBkTXJQSV94dm9iRDFsSnQwNEE6MQ Thanks for registering! %}
