@@ -15,5 +15,17 @@ Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 
 ## Notes
 
-Check out  for guides and documentation.
+Cheat sheet:
+
+* Generate/preview locally:
+	* rake preview
+* deploy to Github:
+	* rake deploy
+* Create a new page
+	> rake new_page[super-awesome]
+	> # creates /source/super-awesome/index.markdown
+	>
+	> rake new_page[super-awesome/page.html]
+	> # creates /source/super-awesome/page.html
+	
 
