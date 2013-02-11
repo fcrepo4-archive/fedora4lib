@@ -9,7 +9,7 @@
   <meta name="author" content="Edwin Shin">
 
   
-  <meta name="description" content="Hacking Fedora 4 We can rebuild it. We have the technology. Better&#8230;stronger&#8230;faster. What do we like about Fedora 4? Rapid prototyping of &hellip;">
+  <meta name="description" content="Hacking Fedora 4 We can rebuild it. We have the technology. Better&#8230;stronger&#8230;faster. Where is Fedora 4 today? Rapid prototypes of RESTful &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -101,10 +101,10 @@
   
   <blockquote><p>We can rebuild it. We have the technology. Better&#8230;stronger&#8230;faster.</p></blockquote>
 
-<p>What do we like about Fedora 4?</p>
+<p>Where is Fedora 4 today?</p>
 
 <ol>
-<li><p>Rapid prototyping of RESTful services</p>
+<li><p>Rapid prototypes of RESTful services</p>
 
 <p> a. <a href="https://github.com/futures/fcrepo4/tree/master/fcrepo-legacy-api">fcrepo 3.x “legacy” API</a></p>
 
@@ -115,63 +115,27 @@
 <p> d. Content-negotiation</p></li>
 <li><p>A commitment to asynchronous infrastructure</p>
 
-<p> a. Message queues to index content into external services (e.g. 4store, Solr, etc)</p>
+<p> a. Message queues to index content into external services (e.g.
+<a href="https://github.com/futures/ff-indexer-fourstore">4store</a>,
+<a href="https://github.com/futures/ff-jms-solr-indexing">Solr</a>, etc)</p>
 
-<p> b. Asynchronous storage (e.g. Amazon Glacier)</p>
+<p>  b. Asynchronous storage (e.g. <a href="https://github.com/futures/fcrepo4/tree/glacier">Amazon Glacier</a>)</p>
 
-<p> c. Consuming API requests via message queues</p></li>
+<p>  c. Consuming API requests via message queues</p></li>
 <li><p>Support for Ruby, Python &amp; Scala</p>
 
-<p>a. JRuby and Scala examples for processing object events and manipulating content</p></li>
+<p>a. <a href="https://github.com/futures/fcrepo4/tree/jruby-sequencer-example">JRuby</a> and Scala examples for processing object events and manipulating content</p></li>
+<li><p>Modern approaches to scaling</p>
+
+<p> a. replicating and distributing digital objects across multiple nodes for throughput and high-availability</p></li>
 </ol>
 
 
-<p>Join the fedora4lib Developer Challenge at code4lib!</p>
+<p>Where is Fedora 4 going? We very much believe that “The coolest thing to do with your data will be thought of by someone else”, and we know you&#8217;ve got ideas you couldn&#8217;t realize on Fedora 3.</p>
 
-<p>From now until 10am Thursday, 14 February, we&#8217;re accepting submissions for the
-fedora4lib Developer Challenge.</p>
-
-<p>Your starting point, clone: <a href="https://github.com/futures/fcrepo4">https://github.com/futures/fcrepo4</a></p>
-
-<p>We very much believe that &#8220;The coolest thing to do with your data will be thought of by someone else&#8221;,
-but here are some ideas we&#8217;ve been playing with, which you could fork and run with:</p>
-
-<ul>
-<li>Indexing services
-
-<ul>
-<li>A <a href="https://github.com/futures/ff-indexer-fourstore">4Store-based RDF indexing service</a></li>
-<li>A <a href="https://github.com/futures/ff-jms-solr-indexing">Solr 4 indexing service</a></li>
-</ul>
-</li>
-<li>Sequencers
-
-<ul>
-<li>Amazon Glacier Storage Service</li>
-</ul>
-</li>
-<li>APIs
-
-<ul>
-<li>CDL storage service API implementation</li>
-</ul>
-</li>
-</ul>
-
-
-<p>Prizes to be awarded on Thursday include a $500.00 first prize, a $250.00 second prize, plus bottles from our <a href="/brews">prize list</a>).</p>
+<p>What do you want your repository backend to do? Can you hack it into the Fedora 4 prototype by Thursday? The best code submission for indexers, web APIs, message listeners or improvements to the prototype will win a $500 cash prize, and the second place entry will win $250. Pull requests welcome!</p>
 
 <p>For more information, visit us at <a href="/programme">Fedora House</a> on Monday and Tuesday nights!</p>
-
-<p>The APIs: TBA. Currently, we have the legacy Fedora 3.x APIs implemented and a subset of the CDL Storage Service APIs stubbed out.</p>
-
-<p>The Architecture: TBA.</p>
-
-<p>The mailing list: <a href="https://groups.google.com/forum/#!forum/ff-tech">ff-tech</a></p>
-
-<p>The wiki: <a href="https://wiki.duraspace.org/display/FF/">https://wiki.duraspace.org/display/FF/</a></p>
-
-<p>Lies, Damn Lies and Benchmarks: TBA, some <a href="preliminary%20results">https://wiki.duraspace.org/display/FF/Fedora+3.6.2+test+results</a> and visualizations have been collected for Fedora 3.6.2.</p>
 
   
     <footer>
