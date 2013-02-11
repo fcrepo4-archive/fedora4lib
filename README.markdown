@@ -22,6 +22,7 @@ Cheat sheet:
 * deploy to Github:
 	* rake deploy
 * Create a new page
+
 	> rake new_page[super-awesome]
 	> # creates /source/super-awesome/index.markdown
 	>
