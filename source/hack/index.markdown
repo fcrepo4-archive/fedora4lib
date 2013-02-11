@@ -9,34 +9,45 @@ footer: true
 
 > We can rebuild it. We have the technology. Better...stronger...faster.
 
-Join the fedora4lib Developer Challenge at code4lib!
+Where is Fedora 4 today?
+------------------------
 
-From now until 10am Thursday, 14 February, we're accepting submissions for the 
-fedora4lib Developer Challenge.
+1. Rapid prototypes of RESTful services
 
-Your starting point, clone: [https://github.com/futures/fcrepo4](https://github.com/futures/fcrepo4)
+	a. [fcrepo 3.x “legacy” API](https://github.com/futures/fcrepo4/tree/master/fcrepo-legacy-api)
+	
+	b. CDL Storage Services API (i.e. Merritt)
+	
+	c. [An “experimental” pluggable Dublin Core derivation service](https://github.com/futures/fcrepo4/tree/master/fcrepo-dc)
+	
+	d. Content-negotiation
+	
+2. A commitment to asynchronous infrastructure
 
-We very much believe that "The coolest thing to do with your data will be thought of by someone else", 
-but here are some ideas we've been playing with, which you could fork and run with:
+	a. Message queues to index content into external services (e.g.
+[4store](https://github.com/futures/ff-indexer-fourstore), 
+[Solr](https://github.com/futures/ff-jms-solr-indexing), etc)
 
-* Indexing services
-	* A [4Store-based RDF indexing service](https://github.com/futures/ff-indexer-fourstore)
-	* A [Solr 4 indexing service](https://github.com/futures/ff-jms-solr-indexing)
-* Sequencers
-    * Amazon Glacier Storage Service
-* APIs
-	* CDL storage service API implementation
+	b. Asynchronous storage (e.g. [Amazon Glacier](https://github.com/futures/fcrepo4/tree/glacier))
+	
+	c. Consuming API requests via message queues
+	
+3. 	Support for Ruby, Python & Scala
 
-Prizes to be awarded on Thursday include a $500.00 first prize, a $250.00 second prize, plus bottles from our [prize list]({{ root_url }}/brews)).
+	a. [JRuby](https://github.com/futures/fcrepo4/tree/jruby-sequencer-example) and Scala examples for processing object events and manipulating content
+	
+4. Modern approaches to scaling
+
+	a. replicating and distributing digital objects across multiple nodes for throughput and high-availability
+	
+
+Where is Fedora 4 going? 
+------------------------
+
+We very much believe that “The coolest thing to do with your data will be thought of by someone else”, and we know you've got ideas you couldn't realize on Fedora 3.
+
+What do you want your repository backend to do? Can you hack it into the Fedora 4 prototype by Thursday? 
+
+The best code submission for indexers, web APIs, message listeners or improvements to the prototype will win a $500 cash prize, and the second place entry will win $250. Pull requests welcome!
 
 For more information, visit us at [Fedora House]({{ root_url }}/programme) on Monday and Tuesday nights!
-
-The APIs: TBA. Currently, we have the legacy Fedora 3.x APIs implemented and a subset of the CDL Storage Service APIs stubbed out.
-
-The Architecture: TBA.
-
-The mailing list: [ff-tech](https://groups.google.com/forum/#!forum/ff-tech)
-
-The wiki: [https://wiki.duraspace.org/display/FF/](https://wiki.duraspace.org/display/FF/)
-
-Lies, Damn Lies and Benchmarks: TBA, some [https://wiki.duraspace.org/display/FF/Fedora+3.6.2+test+results](preliminary results) and visualizations have been collected for Fedora 3.6.2.

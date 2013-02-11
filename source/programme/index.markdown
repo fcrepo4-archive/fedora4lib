@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-We have two nights planned for Fedora House, plus informal evening socials for the remainder of code4lib.
+We're hosting two nights for Fedora House, plus informal evening socials for the remainder of code4lib.
 
 We'll have Chicago deep-dish pizza and a selection of local and not-so-local craft beers on Monday and Tuesday.
 
